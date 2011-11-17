@@ -16,15 +16,12 @@ For more information visit: http://www.visser.com.au/woocommerce/
 == Installation ==
 
 1. Upload the folder 'woocommerce-all-in-one-seo-pack' to the '/wp-content/plugins/' directory
-
 2. Activate 'WooCommerce - All in One SEO Pack' through the 'Plugins' menu in WordPress
 
 == Usage ==
 
 1. Open Products and edit a Product
-
 2. Under All in One SEO Pack add SEO meta details
-
 3. Press Update to save changes
 
 That's it!
