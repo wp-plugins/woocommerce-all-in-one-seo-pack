@@ -3,7 +3,7 @@ if( is_admin() ) {
 
 	/* Start of: WordPress Administration */
 
-	if( function_exists( '' ) ) {
+	if( function_exists( 'aioseop_get_version' ) ) {
 
 		add_action( 'add_meta_boxes', 'woo_ai_meta_boxes' );
 		add_action( 'woocommerce_process_product_meta', 'woo_ai_process_product_meta', 1, 2 );

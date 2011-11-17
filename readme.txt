@@ -1,11 +1,11 @@
 === WooCommerce - All in One SEO Pack ===
 
-Contributors: Visser Labs
+Contributors: visser
 Donate link: http://www.visser.com.au/#donations
 Tags: woocommerce, mod, aioseop, all in one seo pack
 Requires at least: 2.9.2
 Tested up to: 3.2.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Manage All in One SEO Pack meta details for WooCommerce Products within the Add/Edit Products view within the WordPress Administration.
 
@@ -36,6 +36,9 @@ If you have any problems, questions or suggestions please join the members discu
 http://www.visser.com.au/woocommerce/forums/
 
 == Changelog ==
+
+= 1.1 =
+* Fixed: All in One SEO Pack Plugin detection
 
 = 1.0 =
 * Added: Initial release of Plugin
