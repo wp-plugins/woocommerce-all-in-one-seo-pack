@@ -11,6 +11,18 @@ Manage All in One SEO Pack meta details for WooCommerce Products within the Add/
 
 == Description ==
 
+This Plugin extends the All in One SEO Pack Plugin (by hallsofmontezuma) to display the All in One SEO Pack dialog on the Add/Edit Products screen within WooCommerce. 
+Without this Plugin you cannot add/edit/manage All in One SEO Pack meta details which is why I developed this solution.
+
+Some features:
+
+* Title
+* Description
+* Keywords
+* Title Attributes
+* Menu Title
+* Disable Product
+
 For more information visit: http://www.visser.com.au/woocommerce/
 
 == Installation ==
