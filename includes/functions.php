@@ -14,7 +14,8 @@ if( is_admin() ) {
 
 	function woo_ai_meta_boxes() {
 
-		add_meta_box( 'woocommerce-aioseop', __( 'All in One SEO Pack', 'woo_ai' ), 'woo_ai_aioseop_box', 'product', 'normal', 'high' );
+		$post_type = 'product';
+		add_meta_box( 'woocommerce-aioseop', __( 'All in One SEO Pack', 'woo_ai' ), 'woo_ai_aioseop_box', $post_type, 'normal', 'default' );
 
 	}
 
