@@ -4,8 +4,8 @@ Contributors: visser
 Donate link: http://www.visser.com.au/#donations
 Tags: woocommerce, mod, aioseop, all in one seo pack, product details
 Requires at least: 2.9.2
-Tested up to: 4.0
-Stable tag: 1.3.2
+Tested up to: 4.1.1
+Stable tag: 1.3.3
 
 Manage All in One SEO Pack meta details for WooCommerce Products within the Add/Edit Products view within the WordPress Administration.
 
@@ -48,6 +48,10 @@ http://www.visser.com.au/woocommerce/forums/
 
 == Changelog ==
 
+= 1.3.3 =
+* Fixed: Styling on Edit Product screen
+* Changed: Compatibility with WordPress 4.1.1
+
 = 1.3.2 =
 * Fixed: Localhost link to image
 
@@ -68,6 +72,10 @@ http://www.visser.com.au/woocommerce/forums/
 
 = 1.0 =
 * Added: Initial release of Plugin
+
+== Screenshots ==
+
+1. The All in One SEO Pack widget displaying on the Add/Edit WooCommerce Product screen.
 
 == Disclaimer ==
 

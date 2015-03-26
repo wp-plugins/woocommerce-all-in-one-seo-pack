@@ -9,20 +9,23 @@ Author URI: http://www.visser.com.au/about/
 License: GPL2
 */
 
-load_plugin_textdomain( 'woo_ai', null, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-include_once( 'includes/functions.php' );
+define( 'WOO_AI_DIRNAME', basename( dirname( __FILE__ ) ) );
+define( 'WOO_AI_RELPATH', basename( dirname( __FILE__ ) ) . '/' . basename( __FILE__ ) );
+define( 'WOO_AI_PATH', plugin_dir_path( __FILE__ ) );
+define( 'WOO_AI_PREFIX', 'woo_ai' );
 
-include_once( 'includes/common.php' );
+define( 'WOO_AI_NAME', __( 'All in One SEO Pack for WooCommerce', 'woo_ai' ) );
+define( 'WOO_AI_MENU', __( 'All in One SEO Pack', 'woo_ai' ) );
 
-$woo_ai = array(
-	'filename' => basename( __FILE__ ),
-	'dirname' => basename( dirname( __FILE__ ) ),
-	'abspath' => dirname( __FILE__ ),
-	'relpath' => basename( dirname( __FILE__ ) ) . '/' . basename( __FILE__ )
-);
+include_once( WOO_AI_PATH . 'includes/common.php' );
+include_once( WOO_AI_PATH . 'includes/functions.php' );
 
-$woo_ai['prefix'] = 'woo_ai';
-$woo_ai['name'] = __( 'All in One SEO Pack for WooCommerce', 'woo_ai' );
-$woo_ai['menu'] = __( 'All in One SEO Pack', 'woo_ai' );
+function woo_ai_i18n() {
+
+	load_plugin_textdomain( 'woo_ai', null, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+
+}
+add_action( 'init', 'woo_ai_i18n' );
 ?>

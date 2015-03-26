@@ -3,6 +3,8 @@ if( is_admin() ) {
 
 	/* Start of: WordPress Administration */
 
+	include_once( WOO_AI_PATH . 'includes/admin.php' );
+
 	function woo_ai_admin_init() {
 
 		add_action( 'add_meta_boxes', 'woo_ai_meta_boxes' );
@@ -21,7 +23,7 @@ if( is_admin() ) {
 
 	function woo_ai_aioseop_box() {
 
-		global $post, $woo_ai;
+		global $post;
 
 		$aioseop_enabled = true;
 		if( !function_exists( 'aioseop_get_version' ) ) {
@@ -41,7 +43,7 @@ if( is_admin() ) {
 		$menu_label = get_post_meta( $post->ID, '_aioseop_menulabel', true );
 		$disable = get_post_meta( $post->ID, '_aioseop_disable', true );
 
-		include_once( $woo_ai['abspath'] . '/templates/admin/woo-admin_ai_aioseop.php' );
+		include_once( WOO_AI_PATH . 'templates/admin/woo-admin_ai_aioseop.php' );
 
 	}
 
