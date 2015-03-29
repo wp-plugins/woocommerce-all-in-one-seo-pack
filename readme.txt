@@ -5,7 +5,7 @@ Donate link: http://www.visser.com.au/#donations
 Tags: woocommerce, mod, aioseop, all in one seo pack, product details
 Requires at least: 2.9.2
 Tested up to: 4.1.1
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 
 Manage All in One SEO Pack meta details for WooCommerce Products within the Add/Edit Products view within the WordPress Administration.
 
@@ -47,6 +47,9 @@ If you have any problems, questions or suggestions please join the members discu
 http://www.visser.com.au/woocommerce/forums/
 
 == Changelog ==
+
+= 1.3.4 =
+* Fixed: PHP warning on unsaved form element
 
 = 1.3.3 =
 * Fixed: Styling on Edit Product screen

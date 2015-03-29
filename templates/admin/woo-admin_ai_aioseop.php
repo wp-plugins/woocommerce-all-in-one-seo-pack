@@ -29,7 +29,7 @@
 		<div class="options_group">
 			<p class="form-field">
 				<label for="woo_ai_aioseop_disable"><?php _e( 'Disable Product', 'woo_ai' ); ?></label>
-				<input type="checkbox" id="woo_ai_aioseop_disable" name="aioseop_disable" class="checkbox"<?php checked( $disable, 'on' ); ?><?php disabled( $aioseop_enabled, false ); ?> />
+				<input type="checkbox" id="woo_ai_aioseop_disable" name="aioseop_disable" value="1" class="checkbox"<?php checked( $disable, 'on' ); ?><?php disabled( $aioseop_enabled, false ); ?> />
 				 <img class="help_tip" data-tip="<?php _e( 'Disable on this Product.', 'woo_ai' ); ?>" src="<?php echo plugins_url( '/woocommerce/assets/images/help.png' ); ?>" />
 			</p>
 		</div>

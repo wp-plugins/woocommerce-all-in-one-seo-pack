@@ -54,7 +54,7 @@ if( is_admin() ) {
 		update_post_meta( $post_id, '_aioseop_keywords', stripslashes( $_POST['aioseop_keywords'] ) );
 		update_post_meta( $post_id, '_aioseop_titleatr', stripslashes( $_POST['aioseop_titleatr'] ) );
 		update_post_meta( $post_id, '_aioseop_menulabel', stripslashes( $_POST['aioseop_menulabel'] ) );
-		update_post_meta( $post_id, '_aioseop_disable', $_POST['aioseop_disable'] );
+		update_post_meta( $post_id, '_aioseop_disable', ( isset( $_POST['aioseop_disable'] ) ? 'on' : 0 ) );
 
 	}
 
